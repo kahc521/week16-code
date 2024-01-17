@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'maven:3-amazoncorretto-17-debian' }
+        docker { image 'node:20.10.0-alpine3.19' }
     }
     stages{
         stage('check current directory'){
